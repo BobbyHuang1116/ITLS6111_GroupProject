@@ -1,15 +1,15 @@
 # ITLS6111_GroupProject
 
 ## Project requirement
-Project Brief
+### Project Brief
 COVID-19 has created long-lasting impacts on the retailing sector. During the lockdown period 2019-2020, the pandemic had created a great opportunity for eCommerce when shoppers avoided malls and shopping centres in favour of online shopping. Emerging evidence suggests that while 15% of retail dollars were spent online in 2019, eCommerce is now expected to make up 22% of global retail sales, according to the Australia Post eCommerce Industry Report (Australia Post, 2020) and Ecommerce Research (Big Commerce, 2022). Thus, while the COVID-19 lock-downs in 2020 and 2021 had seen a few retailers considered closing their stores (Elmas, 2021), the ‘new normal’ has seen more foot traffic in major shopping centres. This new trend brings back brick-and-mortar stores. 
 A retail chain in NSW is planning for this new trend. It plans to adjust their footprint (i.e., closing low-performing stores and setting up new stores in good locations), while ramping up online sales by investing in online as well as fulfilment and delivery services. The company has hired your group as consultants to analyse its sales data and come up with a plan to adjust physical shops, while increasing internet presence to capture new trend in online shopping. The retailer aims to close two low-performing stores, setting up one new store in NSW/ACT and invest more in fulfilment and delivery services. The retailer also wants to reduce logistic costs as much as possible. To accomplish these objectives, you will need to do the following:
 
-Sales
+#### Sales
 •	Use the historical sales data across all shops, and the socio-economic and business indicators for the areas in which these shops are located to determine the performance of each shop relative to other shops. This process is known as benchmarking, a practice that typically uses modelling, such as a regression model. Benchmarking is, in essence, comparing the performance of each shop against the “average shop” or ranking the shops according to their sales, considering the demographic and economic settings in which the shop operates so that a like-for-like comparison can be made. Failing to account for differences in demographic and economic settings, any companion would not be very meaningful because without doing any analysis, we can say, with fair confidence, that a shop located in a busy area such as the CBD would perform better than a shop in regional area, simply because there are more potential customers in the former area. 
 •	Based on your benchmarking above, identify 2 low-performing shops in NSW/ACT (Australian Capital Territory) for closure and one good location in NSW/ACT for setting up a new store. That is, the total number of brick-and-mortar stores will reduce by one. 
 
-Logistics and distribution
+#### Logistics and distribution
 •	Following the adjustment of brick-and-mortar stores, the company considers moving its distribution centres to serve the remaining shops better and to reduce logistic costs, of which transportation and inventory cost are the major components. You must identify the optimal number and location of new distribution centre(s) in NSW/ACT, assuming that (1) online sale quantities will increase by 40%, according to ABS Retail Trade report (2022), and (2) sale quantities of each of the remaining/new shops will increase by 15%, compared to the quantities recorded in the sales dataset. 
 •	To help you locate new distribution centre(s) in the metropolitan area of NSW/ACT, the company provides your team with the list of candidates for Distribution Centres (DCs) in NSW as follows:
 
@@ -25,7 +25,7 @@ Monaro Industrial Park in Hume, ACT 2620	$130
 If a DC is required outside the metropolitan area of NSW/ACT such as in Albury – the border town of NSW and Victoria states, you are free to select any suitable location as DC and assume a unit rent cost of $100 / m2 per month.
 •	Develop a routing plan which includes (i) identifying the number of vehicles, (ii) type of vehicle, and (iii) delivery schedule for servicing the brick-and-mortar shops in New South Wales/ ACT. You should justify why your routing plan is optimal, with consideration for how the company best fulfill the increasing online sales. 
 
-Core datasets
+#### Core datasets
 To help you with your analysis and recommendations, the company provides the following datasets. Keep in mind that the datasets were provided by different consultants. They may contain errors and inconsistencies.
 
 a)	One year of weekly sales data for all locations for over 1,000 products including toys, health and beauty, and home decoration (sales dataset NSWsales.csv)
@@ -39,7 +39,7 @@ Data items c – f can be found inside the GroupProject_SpatialData.gdb. ABS dat
 
 Apart from the core datasets above, you can use any other data, including the data provided to you in this unit and those you find on the Internet (you don’t need to). You must include a section in your report detailing the sources of each dataset you use. You can download ABS 2021 DataPacks by clicking on the hyperlink, some of which I have processed and included in the GroupProject_SpatialData.gdb.
 
-Assumptions
+#### Assumptions
 The company has several constraints that you must allow for in your analysis and routing plans. These cannot be changed.
 
 •	Distribution centres are open from 05:00 to 17:00
@@ -56,9 +56,9 @@ Small Rigid	40	$70,000	22
 Note: * Capacity is defined by the maximum number of units of the products included in the sales dataset that each vehicle can carry at a time.
 
 
-Project Deliverables
+### Project Deliverables
 
-Presentation: 10%
+#### Presentation: 10%
 A group presentation of 10 minutes max. Each team members must present/speak to gain marks. You should use the rubric for Presentation below to guide the structure of your presentation. 
 
 What should you cover in your presentation?
@@ -76,7 +76,7 @@ Communication: 2
 •	Engaging talk vs. reading from the slides?
 •	Handling Q&A
 
-Report: 20%
+#### Report: 20%
 A group report, in a format and style suitable to provide to management executives in a national retailer, consist of:
 •	A title page (one-page)
 •	A maximum 4-page executive summary; and
@@ -117,11 +117,11 @@ Readability: 2
 1 - Grammar and spelling
 1 - Report structure and page limit
 
-Independent Peer Evaluation: Due by 27/10/2023 at 23:59
+#### Independent Peer Evaluation: Due by 27/10/2023 at 23:59
 While this is a group project, group members will receive individual marks according to their relative contributions to the group work. Therefore, you must submit your independent peer evaluation of your group members’ contributions, relative to your contribution. For example, if all group members contribute equally, you should give each and all group members, including yourself, an average mark of 3 (on a scale from 1 to 5).  If member X in your group contributes a bit more than member Y, you should X a higher mark than the mark you give to Y.  
 It is very important that (1) you use word processing software (such as MS Word) to complete the Independent Peer Evaluation form (available on Canvas on the submission page) and that (2) the submitted file be in word format (i.e., .docx). DON’T use handwriting or converting your completed form to another format such as PDF. Doing so will result in your peer evaluation being excluded from consideration in the process of assigning individual mark to each group member.
 
-References
+### References
 ABS (2022): “Retail Trade, Australia”. Available at https://www.abs.gov.au/statistics/industry/retail-and-wholesale-trade/retail-trade-australia/latest-release#online-retailing 
 Australia Post (2020) “2020 ecommerce industry report”. Available at https://auspost.com.au/content/dam/auspost_corp/media/documents/2020-ecommerce-industry-report.pdf 
 Big Commerce (2022) “16 Online Shopping Statistics: How Many People Shop Online?”. Available online at https://www.bigcommerce.com.au/blog/online-shopping-statistics/#5-essential-online-shopping-statistics 
