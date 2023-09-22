@@ -6,9 +6,23 @@ output: html_document
 ---
 
 ```{r}
-
+library(tidyverse)
+library(ggplot2)
+library(sf)
+library(tmap)
+library(lubridate)
 ```
 
+```{r}
+#read data
+nswsales_2023 = read.csv("./NSWsale2023.csv")
 
+nswsales_2023 %>% head()
+# number of items the retailers have for sale
+nswsales_2023 %>%
+  group_by(producttype)%>%
+  distinct(gtin)%>%
+  summarise(nitems = n())
+```
 
 
